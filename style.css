@@ -1,0 +1,184 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+.container {
+  max-width: 1150px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  padding: 40px 0;
+}
+.title h1 {
+  font-size: 30px;
+}
+.title p {
+  padding-top: 20px;
+  color: #333;
+}
+
+.btn {
+  border: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: rgb(17, 196, 17);
+  border-radius: 10px;
+  color: white;
+}
+
+.home {
+  height: 100vh;
+}
+.home .left {
+  margin-top: 26vh;
+  width: 440px;
+}
+.home .left h1 {
+  font-size: 41px;
+}
+.home .left p {
+  font-size: 20px;
+  color: #454545;
+  margin-top: 31px;
+}
+.home .right {
+}
+.home .right .home-img {
+  width: 450px;
+  margin-left: 180px;
+  margin-top: 70px;
+}
+.home .right .home-img img {
+}
+.feature-flower .cards {
+}
+.feature-flower .card {
+  text-align: center;
+}
+.feature-flower .card .card-img {
+  border-radius: 50% 50% 0 0;
+  overflow: hidden;
+}
+.feature-flower .card .card-img img {
+}
+.feature-flower .card p {
+  margin-top: 15px;
+  text-decoration: underline;
+  color: #333;
+}
+
+.services {
+  padding: 40px 0;
+}
+.services .container {
+  background-color: aqua;
+  padding: 30px;
+}
+.services .cards {
+}
+.services .card {
+  text-align: center;
+}
+.services .card .card-img {
+}
+.services .card .card-img img {
+}
+.services .card p {
+  color: #333;
+}
+
+.promo {
+  background-color: rgba(238, 239, 239, 0.621);
+  padding: 40px 0;
+}
+.promo .left {
+  width: 500px;
+}
+.promo .container {
+  align-items: center;
+}
+.promo .left .promo-content {
+  text-align: center;
+}
+.promo .left .promo-content h1 {
+  font-size: 30px;
+}
+.promo .left .promo-content p {
+  padding: 30px 0;
+}
+
+.instagram {
+}
+.instagram .content {
+}
+.instagram .cards {
+  gap: 10px;
+}
+.instagram .cards .card {
+  overflow: hidden;
+  border-radius: 10px;
+}
+.instagram .cards .card img {
+}
+
+.newsletter {
+  padding: 40px 0;
+}
+.newsletter .container {
+  background: url("Flower Asset/Rectangle 9.png");
+  flex-direction: column;
+  text-align: center;
+  padding: 40px 0;
+}
+.newsletter form {
+}
+.newsletter form input {
+  width: 300px;
+  padding: 12px;
+  border-radius: 10px;
+}
+.newsletter form btn {
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer .footer-title {
+}
+footer .footer-title h1 {
+  color: white;
+}
+.footer-title span {
+  color: yellow;
+}
+footer .footer-title p {
+  color: blanchedalmond;
+}
+footer .footer-text {
+  text-align: center;
+  padding: 30px;
+  color: lightgray;
+}
