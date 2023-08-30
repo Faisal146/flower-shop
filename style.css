@@ -60,7 +60,7 @@ img {
 .home .left p {
   font-size: 20px;
   color: #454545;
-  margin-top: 31px;
+  margin-bottom: 30px;
 }
 .home .right {
 }
@@ -147,6 +147,7 @@ img {
 }
 .newsletter .container {
   background: url("Flower Asset/Rectangle 9.png");
+  background-size: cover;
   flex-direction: column;
   text-align: center;
   padding: 40px 0;
